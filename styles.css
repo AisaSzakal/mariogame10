@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #024763;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: url('assets/depositphotos_610429878-stock-photo-architectural-seamless-border-pattern-dark.jpg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+#player img {
+    width: 100%;
+    height: 100%;
+}
+
+.platform {
+    position: absolute;
+    bottom: 0;
+    width: 100px;  /* Adjust the size as per your image */
+    height: 50px;  /* Adjust the size as per your image */
+    background: url('assets/white-cloud-clipart-design-illustration-free-png.png') no-repeat center center;
+    background-size: contain;
+}
+
+.obstacle {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background: url('assets/ballet.png') no-repeat center center;
+    background-size: contain;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: aliceblue;
+}
+
